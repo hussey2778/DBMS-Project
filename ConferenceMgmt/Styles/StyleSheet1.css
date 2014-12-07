@@ -1,0 +1,233 @@
+﻿*		{ margin:auto;
+		padding:0px;
+		}
+		body{
+    padding:0px;
+	margin:0px;
+	background-color:#ffffff;
+	font-family:tahoma;
+	font-size:11px;
+	color:#666666;
+	text-align:center;
+	background:#000;
+	
+	}
+		#main_body{
+	overflow:auto;
+	width:968px; height:auto;
+	margin: 0 auto;	
+	margin-top:5px;
+	padding-bottom:40px;
+	background-color:#FFF;
+	}
+	#main_body1{
+		overflow: auto;
+	width:968px;
+	height:auto;
+	border:1px solid;
+	border-color:#CCC;
+	padding:0px;
+	}
+	.body_left{
+    float:left;
+	width:20%;
+	height:auto;
+	border:1px solid;
+	border-color:#CCC;
+	text-align:center;
+	font-size:14px;
+	margin-top:5px;
+	margin-left:1px;
+
+	}
+
+	.body_right{
+	float:left;
+	width:25%;
+height:252px;
+	border:1px solid;
+	border-color:#CCC;
+	}
+	.mn{
+	width:100%;
+	height:20px;
+	background: #333;
+	color:#FFF;
+	text-decoration:none;
+	
+
+	margin-top:5px;
+
+}
+	.mn2{
+	width:100%;
+	height:20px;
+	background: #39C;
+	background-repeat:repeat-x;
+	margin-top:5px;
+
+}
+.mn_1{
+	width:100%;
+	height:20px;
+	background-color:#39C;
+	margin-top:5px;
+	font-size:10px;
+}
+	.head{
+		width:100%;
+		height:40px;
+		background: #09F;
+		padding:0px;
+		margin:0px;
+	}
+	.header_left{
+		float:left;
+		width:400px;
+		height:30px;
+		margin-left:5px;
+		margin-top:5px;
+	}
+
+	.header_left_text{
+		float:left;
+		text-align:left;
+		font-size:18px;
+		color: #FFF;
+	}
+
+	.header_right{
+		float:right;
+		width:400px;
+		height:30px;
+		margin-right:5px;
+		margin-top:5px;
+	}
+
+	.header_right_text{
+		float:right;
+		text-align:right;
+		font-size:14px;
+		color:#000;
+	}
+.body_mid{
+	float:left;
+	width:81%;
+	height:auto;
+	border:1px solid;
+	border-color:#CCC;
+	margin-left:100px;
+	margin-top:30px;
+	
+	}
+	.body_mid_1{
+	overflow:auto;
+	float:left;
+	width:78%;
+	height:auto;
+	border:1px solid;
+	border-color:#CCC;
+	margin-left:40px;
+	margin-top:5px;
+	padding-bottom:60px;
+	margin-left:4px;
+	}
+	.body_middle{
+	width:80%;
+	height:auto;
+	padding-bottom:10px;
+}
+.login_box{ 
+
+float:left; 
+
+border:1px solid #e1e1e1; 
+
+padding-bottom:10px; 
+
+margin-top:50px; 
+
+margin-left:230px; 
+
+width:50%; 
+
+position:absolute;
+
+}
+
+
+
+.login_box h1{ 
+
+float:left; 
+
+width:98%; 
+
+margin:0px;
+
+padding:5px; 
+
+border-bottom:1px solid #e1e1e1; 
+
+background-color:#FFB500;
+
+background-image:url(../images/btn_bg.jpg);
+
+background-repeat:repeat-x;
+
+color:#f5f5f5; 
+
+font-size:24px; 
+
+font-weight:bolder;
+
+}
+
+.login_left{ 
+
+float:left; 
+
+width:35%; 
+
+position:relative; 
+
+padding:5px;
+margin-top:10px;
+
+}
+
+.login_right{ 
+
+float:left; 
+
+width:50%; 
+
+padding:5px; 
+margin-top:10px;
+font-size:09px;
+
+position:relative;
+
+}
+.btn{
+
+background:#333;
+
+border:1px solid #cccccc; 
+
+background-repeat:repeat-x; 
+
+color:#ffffff; 
+
+font-weight:bold; 
+
+padding:2px;}
+.footer{
+	height:20px;
+	text-align:center;
+	font-size:10px;
+	color:#FFF;
+}
+input{ border:1px solid #cccccc;}
+
+

@@ -1,0 +1,8 @@
+E:\3rd_Sem\DBMS\MyProject\ConferenceMgmt\ConferenceMgmt\bin\ConferenceMgmt.dll
+E:\3rd_Sem\DBMS\MyProject\ConferenceMgmt\ConferenceMgmt\bin\ConferenceMgmt.pdb
+E:\3rd_Sem\DBMS\MyProject\ConferenceMgmt\ConferenceMgmt\obj\Debug\ConferenceMgmt.dll
+E:\3rd_Sem\DBMS\MyProject\ConferenceMgmt\ConferenceMgmt\obj\Debug\ConferenceMgmt.pdb
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\bin\ConferenceMgmt.dll
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\bin\ConferenceMgmt.pdb
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Debug\ConferenceMgmt.dll
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Debug\ConferenceMgmt.pdb
