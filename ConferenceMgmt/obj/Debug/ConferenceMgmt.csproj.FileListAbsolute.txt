@@ -10,3 +10,4 @@ C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\bin\ConferenceMgmt.dll
 C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\bin\ConferenceMgmt.pdb
 C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\obj\Debug\ConferenceMgmt.dll
 C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\obj\Debug\ConferenceMgmt.pdb
+C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\obj\Debug\ConferenceMgmt.csprojResolveAssemblyReference.cache
