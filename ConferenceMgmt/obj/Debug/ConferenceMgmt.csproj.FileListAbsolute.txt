@@ -6,3 +6,7 @@ E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\bin\ConferenceMgmt.dll
 E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\bin\ConferenceMgmt.pdb
 E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Debug\ConferenceMgmt.dll
 E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Debug\ConferenceMgmt.pdb
+C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\bin\ConferenceMgmt.dll
+C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\bin\ConferenceMgmt.pdb
+C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\obj\Debug\ConferenceMgmt.dll
+C:\Users\hussain\Desktop\DBMS-Project\ConferenceMgmt\obj\Debug\ConferenceMgmt.pdb
