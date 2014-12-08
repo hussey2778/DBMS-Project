@@ -199,7 +199,6 @@
     <Content Include="images\sheet_v.png" />
     <Content Include="images\spacer.gif" />
     <Content Include="Default.aspx" />
-    <Content Include="index_conference_registration.aspx" />
     <Content Include="index_tutorial_registration.aspx" />
     <Content Include="index_user.aspx" />
     <Content Include="index_view.aspx" />
@@ -265,13 +264,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="index_conference_registration.aspx.cs">
-      <DependentUpon>index_conference_registration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index_conference_registration.aspx.designer.cs">
-      <DependentUpon>index_conference_registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="index_user.aspx.cs">
       <DependentUpon>index_user.aspx</DependentUpon>
