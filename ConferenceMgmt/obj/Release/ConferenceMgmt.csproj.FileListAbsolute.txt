@@ -1,0 +1,5 @@
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\bin\ConferenceMgmt.dll
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\bin\ConferenceMgmt.pdb
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Release\ConferenceMgmt.dll
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Release\ConferenceMgmt.pdb
+E:\3rd_Sem\DBMS\Final work\ConferenceMgmt\obj\Release\ConferenceMgmt.csprojResolveAssemblyReference.cache

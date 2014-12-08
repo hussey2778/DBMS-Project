@@ -2,20 +2,7 @@
     MasterPageFile="Final.Master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="AA1" runat="server">
-    <link href="Styles/jquery.timepicker.css" rel="stylesheet" type="text/css" />
-    <link href="Styles/bootstrap-datepicker.css" rel="stylesheet" type="text/css" />
-    <link href="Styles/picker-site.css" rel="stylesheet" type="text/css" />
-    
     <form id="form1" runat="server" class="art-postcontent">
-    <asp:ScriptManager ID="ScriptManager1" runat="server">
-    </asp:ScriptManager>
-    <asp:ScriptManagerProxy ID="ScriptManagerProxy1" runat="server">
-        <Scripts>
-            <asp:ScriptReference Path="~/Scripts/jquery.timepicker.js" />
-            <asp:ScriptReference Path="~/Scripts/bootstrap-datepicker.js" />
-            <asp:ScriptReference Path="~/Scripts/picker-site.js" />
-        </Scripts>
-    </asp:ScriptManagerProxy>
     <table>
         <tr>
             <td>
@@ -98,13 +85,12 @@
     </asp:GridView>
     <asp:Label ID="lblError" ForeColor="Red" runat="server"></asp:Label>
     </form>
+   
     <script language="javascript" type="text/javascript">
-        $(document).ready(function () {
-
-            alert($('#btnSubmit').val());
-            $('#txtStartTime').timepicker({});
-            $('#txtEndTime').timepicker({});
-            $('#txtTutorialDate').datepicker({ 'autoclose': true });
+        $(document).ready(function () {           
+            $('#AA1_txtStartTime').timepicker({});
+            $('#AA1_txtEndTime').timepicker({});
+            $('#AA1_txtTutorialDate').datepicker({ 'autoclose': true });
         });
     </script>
 </asp:Content>

@@ -10,69 +10,69 @@
 namespace ConferenceMgmt {
     
     
-    public partial class Final {
+    public partial class Adm_Statistics {
         
         /// <summary>
-        /// liRole control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRole;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// liActivity control.
+        /// grvConferencesViewStatistics control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liActivity;
+        protected global::System.Web.UI.WebControls.GridView grvConferencesViewStatistics;
         
         /// <summary>
-        /// liTutorial control.
+        /// btnExportcsv1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTutorial;
+        protected global::System.Web.UI.WebControls.Button btnExportcsv1;
         
         /// <summary>
-        /// liConference control.
+        /// grvTutorialsViewStatistics control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liConference;
+        protected global::System.Web.UI.WebControls.GridView grvTutorialsViewStatistics;
         
         /// <summary>
-        /// liViewPaper control.
+        /// ExportCSV2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liViewPaper;
+        protected global::System.Web.UI.WebControls.Button ExportCSV2;
         
         /// <summary>
-        /// liStatistics control.
+        /// grvPaperStatistics control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStatistics;
+        protected global::System.Web.UI.WebControls.GridView grvPaperStatistics;
         
         /// <summary>
-        /// AA1 control.
+        /// btnExportCSV3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AA1;
+        protected global::System.Web.UI.WebControls.Button btnExportCSV3;
     }
 }

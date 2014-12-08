@@ -6,9 +6,9 @@
 </head>
 <body>
     <form id="form1" class = "art-postcontent" runat="server">
-    <div>
+    <div class = "contents" id = "container">
     
-    </div>
+    
     <asp:GridView ID="grvPaper" AutoGenerateColumns="false" OnRowCommand="grvPaper_RowCommand"
         runat="server"  
  DataKeyNames="Paperid" >
@@ -33,6 +33,7 @@
             
         </Columns>
     </asp:GridView>
+    </div>
     <br />
     <asp:TextBox ID="txtPaperID" runat="server" Visible="False"></asp:TextBox>
     <br />

@@ -26,5 +26,10 @@ namespace ConferenceMgmt.App_Code.BL
         {
             objTutorialDAL.SaveTutorial(objTutorial);
         }
+
+        internal void SaveTutorialUser(TutorialUser objTutorialUser)
+        {
+            objTutorialDAL.SaveTutorialUser(objTutorialUser);
+        }
     }
 }
