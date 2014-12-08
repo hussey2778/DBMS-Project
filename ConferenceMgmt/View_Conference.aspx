@@ -7,6 +7,7 @@
 </head>
 <body>
     <form id="form1" class = "art-postcontent" runat="server">
+    <div class = "contents" id = "container">
     <asp:GridView ID="grvConferencesView" AutoGenerateColumns="false" 
         runat="server">
         <Columns>
@@ -17,6 +18,7 @@
             
                     </Columns>
     </asp:GridView>
+    </div>
     </form>
 </body>
 </asp:Content>

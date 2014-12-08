@@ -18,43 +18,34 @@ namespace ConferenceMgmt
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                Common.FillDropDown(ddlConference, new ConferenceBL().GetConference().Tables[0], "ConferenceName", "ConferenceID");
+            }
         }
         
         protected void btnSave_Click(object sender, EventArgs e)
         {
-            string path = Server.MapPath("/");
+            string path = Server.MapPath("~/");
             String savePath = path + "/Uploads/";
             System.IO.Directory.CreateDirectory(savePath);
             savePath = savePath + fuPaper.FileName;
             fuPaper.SaveAs(savePath);
 
+            Paper objPaper = new Paper();
+            objPaper.UserID = ((User)Session["User"]).UserID;
+            objPaper.ConfereneceId =Convert.ToInt32(ddlConference.SelectedValue);
+            objPaper.PaperName = txtPaper.Text;
+            objPaper.PaperFees = Convert.ToDouble(lblFees.Text);
+            objPaper.FileName = fuPaper.FileName;
+            Session["RegistrationType"] = "Paper";
+            Session["Paper"] = objPaper;
 
-            byte[] file;
-
-            using (var stream = new FileStream(savePath, FileMode.Open, FileAccess.Read))
-            {
-                using (var reader = new BinaryReader(stream))
-                {
-                    file = reader.ReadBytes((int)stream.Length);
-                }
-            }
-            using (var varConnection = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString))
-            {
-                varConnection.Open();
-                User objUser = (User)Session["User"];
-
-                using (var sqlWrite = new SqlCommand("INSERT INTO Paper (UserID,FileName,PaperName,PaperFees,Data)Values(" + objUser.UserID + ",'" + fuPaper.FileName + "','" + txtPaper.Text + "',50,@File)", varConnection))
-                {
-                    sqlWrite.Parameters.Add("@File", SqlDbType.VarBinary, file.Length).Value = file;
-                    sqlWrite.ExecuteNonQuery();
-                }
-            }
+            Response.Redirect("Payment.aspx");
         }
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            txtPaper.Text = string.Empty;
-            hdnPaperId.Value = "0";
+            Response.Redirect("View_Paper.aspx");
         }
     }
 }

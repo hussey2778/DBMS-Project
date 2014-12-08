@@ -31,8 +31,6 @@ namespace ConferenceMgmt.App_Code.BL
             objConferenceDAL.SaveConferenceUser(objConferenceUser);
         }
 
-
-
         internal DataSet GetConferenceUser(int UserId)
         {
             return objConferenceDAL.GetConferenceUser(UserId);

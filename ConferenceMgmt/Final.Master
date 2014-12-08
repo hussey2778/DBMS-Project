@@ -14,10 +14,31 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" />
+    <link href="jquery.timepicker.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap-datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="picker-site.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="jquery.timepicker.js" type="text/javascript"></script>
+    <script src="bootstrap-datepicker.js" type="text/javascript"></script>
+    <script src="picker-site.js" type="text/javascript"></script>
     <style type="text/css">
         .style1
         {
             width: 124%;
+        }
+        #container
+        {
+            width: 600px;
+            background-color: #CCC;
+            overflow: auto;
+            height: 400px;
+            white-space: nowrap;
+        }
+        .contents
+        {
+            width: 35px;
+            height: 60px;
+            display: inline-block;
         }
         .style2
         {
@@ -137,15 +158,17 @@
                                                     <li><a href="Home.aspx">Home</a></li>
                                                     <li><a href="ConferenceRegistration.aspx">Conference Registration</a></li>
                                                     <li><a href="View_Conference.aspx">View Conference</a></li>
-                                                    <li><a href="ConferenceRegistration.aspx">Tutorial Registration</a></li>
+                                                    <li><a href="TutorialRegistration.aspx">Tutorial Registration</a></li>
                                                     <li><a href="View_Tutorial.aspx">View Tutorial</a></li>
                                                     <li><a href="index_view.aspx">View Profile</a></li>
                                                     <li><a href="PaperSubmission.aspx">Submit Paper</a></li>
+                                                    <li><a href="View_Paper.aspx">View Paper</a></li>
                                                     <li id="liRole" runat="server"><a href="Roles.aspx">Role</a></li>
                                                     <li id="liActivity" runat="server"><a href="Adm_Activity.aspx">Activity</a></li>
                                                     <li id="liTutorial" runat="server"><a href="Adm_Tutorial.aspx">Tutorial</a></li>
                                                     <li id="liConference" runat="server"><a href="Adm_Conference.aspx">Conference</a></li>
                                                     <li id="liViewPaper" runat="server"><a href="Adm_Paper.aspx">View Paper</a></li>
+                                                    <li id="liStatistics" runat="server"><a href="Adm_Statistics.aspx">View Statistics</a></li>
                                                 </ul>
                                                 <p>
                                                     <br />
@@ -196,7 +219,7 @@
                                             <asp:ScriptManager runat="server">
                                                 <Scripts>
                                                     <asp:ScriptReference Path="~/Scripts/jquery-1.11.0.min.js" />
-                                                </Scripts>                                                
+                                                </Scripts>
                                             </asp:ScriptManager>
                                         </asp:ContentPlaceHolder>
                                         <div class="cleared">
@@ -211,12 +234,6 @@
                     <div class="art-footer">
                         <div class="art-footer-inner">
                             <a href="#" class="art-rss-tag-icon" title="RSS"></a>
-                            <div class="art-footer-text">
-                                <p>
-                                    <a href="#">Contact Us</a> | <a href="#">Terms of Use</a> | <a href="#">Trademarks</a>
-                                    | <a href="#">Privacy Statement</a><br />
-                                    Copyright &copy; 2010 ---. All Rights Reserved.</p>
-                            </div>
                         </div>
                         <div class="art-footer-background">
                         </div>
@@ -226,6 +243,10 @@
                 </div>
             </div>
             <div class="cleared">
+            </div>
+            <div class="art-footer-text">
+                <p>
+                    Copyright &copy; 2014 ---. All Rights Reserved.</p>
             </div>
             <p class="art-page-footer">
                 Designed by <a href="">TEAM 9</a>.</p>

@@ -10,69 +10,78 @@
 namespace ConferenceMgmt {
     
     
-    public partial class Final {
+    public partial class TutorialRegistration {
         
         /// <summary>
-        /// liRole control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liRole;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// liActivity control.
+        /// lblError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liActivity;
+        protected global::System.Web.UI.WebControls.Label lblError;
         
         /// <summary>
-        /// liTutorial control.
+        /// grvTutorials control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liTutorial;
+        protected global::System.Web.UI.WebControls.GridView grvTutorials;
         
         /// <summary>
-        /// liConference control.
+        /// lblNoTutorial control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liConference;
+        protected global::System.Web.UI.WebControls.Label lblNoTutorial;
         
         /// <summary>
-        /// liViewPaper control.
+        /// txtTotalFees control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liViewPaper;
+        protected global::System.Web.UI.WebControls.TextBox txtTotalFees;
         
         /// <summary>
-        /// liStatistics control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl liStatistics;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
         
         /// <summary>
-        /// AA1 control.
+        /// btnCancel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AA1;
+        protected global::System.Web.UI.WebControls.Button btnCancel;
+        
+        /// <summary>
+        /// hdnConferenceID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdnConferenceID;
     }
 }

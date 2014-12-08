@@ -190,7 +190,7 @@ div.art-header-png
 .art-nav .l, .art-nav .r
 {
   font-size: 1px;
-  background: none;
+  background: black;
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + artGetStyleUrl()+"images/nav.png',sizingMethod='crop')");
 }
 
@@ -419,7 +419,7 @@ div.art-content-layout
 
 .art-blockheader .l, .art-blockheader .r
 {
-  background: none;
+  background: Black;
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + artGetStyleUrl()+"images/blockheader.png',sizingMethod='crop')");
 }
 
@@ -443,6 +443,7 @@ div.art-content-layout
 
 .art-blockcontent-body
 {
+ 
   position: static;
 }
 

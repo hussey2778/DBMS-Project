@@ -868,9 +868,11 @@ div.art-content-layout-row
 .art-blockheader .t
 {
   height: 30px;
-  color: #FEFEFB;
+  color: white;
   margin-right: 10px;
   margin-left: 10px;
+  font-weight:bold;
+ font-style:italic;
   font-size: 12px;
   text-align: center;
   margin:0;
@@ -915,6 +917,7 @@ div.art-content-layout-row
 
 .art-blockcontent-body
 {
+   
   position: relative;
   z-index: 1;
   padding: 5px;
@@ -1315,7 +1318,7 @@ a img
 .art-article table, table.art-article
 {
   border-collapse: collapse;
-  margin: 1px;
+  margin: 1px 1px 1px 5px;
   width: 99%;
 }
 
