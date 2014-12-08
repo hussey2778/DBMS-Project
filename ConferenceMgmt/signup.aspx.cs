@@ -47,17 +47,6 @@ namespace ConferenceMgmt
             objUser.Password = txtPassword.Text;
             objUser.RoleID = Convert.ToInt32(ddlRole.SelectedValue);
             objUserBL.SaveUser(objUser);
-            objUser.Email = txtEmail.Text;
-            objUser.Password = txtPassword.Text;
-            if (objUserBL.ValidateLogin(objUser))
-            {
-                Session["User"] = objUser;
-                Response.Redirect("Home.aspx");
-            }
-            //else
-            //{
-            //    lblError.Visible = true;
-            //}
         }
     }
 }

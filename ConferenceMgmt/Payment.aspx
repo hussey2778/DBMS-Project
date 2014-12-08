@@ -66,8 +66,7 @@
             <td>
                 <asp:Button runat="server" ID="btnSubmit" Text="Submit" 
                     onclick="btnSubmit_Click" />
-                <asp:Button runat="server" ID="btnCancel" Text="Cancel" 
-                    onclick="btnCancel_Click" />
+                <asp:Button runat="server" ID="btnCancel" Text="Cancel" />
             </td>
         </tr>
     </table>

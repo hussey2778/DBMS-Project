@@ -7,12 +7,10 @@ namespace ConferenceMgmt.App_Code.EL
 {
     public class Paper
     {
-        public int PaperID;
-        public int UserID;
-        public string PaperName;
-        public double PaperFees;
-        public bool IsAccepted;
-        public int ConfereneceId;
-        public string FileName;
+        int PaperID;
+        int UserID;
+        string PaperName;
+        double PaperFees;
+        bool IsAccepted;
     }
 }

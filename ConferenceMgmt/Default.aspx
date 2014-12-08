@@ -10,7 +10,7 @@
                               }
                           </style>
                       </head>
-                      <body background="images\start.jpg">
+                      <body background="images\login_bck.jpg">
                       <form runat = "server">
                       <div class="login_left">
                 <p>
@@ -21,11 +21,11 @@
                               &nbsp;</p>
                           <p>
                               &nbsp;</p>
-                <p style="color:White">
-                <td width="30%" height="38" style="font-size: 25px">
+                <p>
+                <td width="30%" height="38" style="font-size: 25px;">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Sign in to continue to TEAM 9 Online Conference System</td></br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                    click here to <a href="signup.aspx"><strong style="text-decoration: none; color: white; font-size:large">Join Now!</strong></a>&nbsp;</p>
+                    <a href="signup.aspx"><strong style="text-decoration: none; color: #333">Join Now!</strong></a>&nbsp;</p>
                           <p>
                               &nbsp;</p>
             </div>
@@ -34,26 +34,26 @@
                           style="margin-top: 8px; width: 42%;">
                         <tr>
                             <td colspan="2">
-                                <asp:Label ID="lblError" runat="server" Text="Invalid email or password" ForeColor="White" Visible="false"></asp:Label>
+                                <asp:Label ID="lblError" runat="server" Text="Invalid email or password" ForeColor="Red" Visible="false"></asp:Label>
                             </td>
                         </tr>
                         <tr>
-                            <td width="30%" height="38" style="font-size: 18px; color: White">
+                            <td width="30%" height="38" style="font-size: 18px;">
                                 Email
                             </td>
                             <td class="style1">
                                 <asp:TextBox runat="server" ID="txtEmail"></asp:TextBox>
-                                <asp:RequiredFieldValidator ForeColor="White" ID="RequiredFieldValidator6" runat="server"
+                                <asp:RequiredFieldValidator ForeColor="Red" ID="RequiredFieldValidator6" runat="server"
                                     ControlToValidate="txtEmail" Text="Required" Display="Dynamic"></asp:RequiredFieldValidator>
                             </td>
                         </tr>
                         <tr>
-                            <td width="30%" height="38" style="font-size: 18px; color: white;">
+                            <td width="30%" height="38" style="font-size: 18px;">
                                 Password
                             </td>
                             <td class="style1">
                                 <asp:TextBox runat="server" ID="txtPassword" TextMode="Password" Width="138px"></asp:TextBox>
-                                <asp:RequiredFieldValidator ForeColor="White" ID="RequiredFieldValidator1" runat="server"
+                                <asp:RequiredFieldValidator ForeColor="Red" ID="RequiredFieldValidator1" runat="server"
                                     ControlToValidate="txtPassword" Text="Required" Display="Dynamic"></asp:RequiredFieldValidator>
                             </td>
                         </tr>

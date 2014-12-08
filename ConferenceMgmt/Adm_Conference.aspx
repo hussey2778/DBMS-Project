@@ -4,9 +4,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="AA1" runat ="server">
     <script language="javascript" type="text/javascript">
         $(document).ready(function () {
-            $('#AA1_txtStartTime').timepicker({});
-            $('#AA1_txtEndTime').timepicker({});
-            $('#AA1_txtConferenceDate').datepicker({ 'autoclose': true });
+            $('#txtStartTime').timepicker({});
+            $('#txtEndTime').timepicker({});
+            $('#txtConferenceDate').datepicker({ 'autoclose': true });
         });
     </script>
     <form id="form1" class = "art-postcontent" runat="server">

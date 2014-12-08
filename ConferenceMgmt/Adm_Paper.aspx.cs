@@ -102,7 +102,7 @@ namespace ConferenceMgmt
             {
                 con.Open();
                 string query;
-                query = "Update Paper set IsAccepted=0 where PaperID in (select value from fn_split(@PaperID,','))";   //insert query
+                query = "insert into dbo.Paper (IsAccepted)" + " values (0)" + "where PaperID in '@PaperID'";   //insert query
                 com = new SqlCommand(query, con);
                 com.Parameters.Add("@PaperID", SqlDbType.VarChar).Value = PaperID;
                 com.ExecuteNonQuery();

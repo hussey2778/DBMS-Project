@@ -105,7 +105,6 @@ namespace ConferenceMgmt
             objConferenceUser.Comments = txtComments.Text;
             objConferenceUser.Fees = Convert.ToDouble(txtTotalFees.Text);
             objConferenceUser.FoodPreference = ddlFoodPreferences.SelectedItem.Text;
-            Session["RegistrationType"] = "Conference";
             Session["ConferenceUser"] = objConferenceUser;
             Response.Redirect("Payment.aspx");
 
@@ -113,7 +112,7 @@ namespace ConferenceMgmt
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("View_Conference.aspx");
+            
         }
 
         protected void ddlCoferenceName_SelectedIndexChanged(object sender, EventArgs e)

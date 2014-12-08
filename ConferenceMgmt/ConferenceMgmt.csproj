@@ -65,13 +65,6 @@
     <Compile Include="Adm_Paper.aspx.designer.cs">
       <DependentUpon>Adm_Paper.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Adm_Statistics.aspx.cs">
-      <DependentUpon>Adm_Statistics.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Adm_Statistics.aspx.designer.cs">
-      <DependentUpon>Adm_Statistics.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Adm_Tutorial.aspx.cs">
       <DependentUpon>Adm_Tutorial.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -86,13 +79,6 @@
     </Compile>
     <Compile Include="ConferenceRegistration.aspx.designer.cs">
       <DependentUpon>ConferenceRegistration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TutorialRegistration.aspx.cs">
-      <DependentUpon>TutorialRegistration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TutorialRegistration.aspx.designer.cs">
-      <DependentUpon>TutorialRegistration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Emailtest.aspx.cs">
       <DependentUpon>Emailtest.aspx</DependentUpon>
@@ -140,13 +126,6 @@
     <Compile Include="Old_App_Code\EL\Tutorial.cs" />
     <Compile Include="Old_App_Code\EL\TutorialUser.cs" />
     <Compile Include="Old_App_Code\EL\User.cs" />
-    <Compile Include="View_Paper.aspx.cs">
-      <DependentUpon>View_Paper.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View_Paper.aspx.designer.cs">
-      <DependentUpon>View_Paper.aspx</DependentUpon>
-    </Compile>
     <Compile Include="View_Tutorial.aspx.cs">
       <DependentUpon>View_Tutorial.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,11 +137,8 @@
     <Content Include="Adm_Activity.aspx" />
     <Content Include="Adm_Conference.aspx" />
     <Content Include="Adm_Paper.aspx" />
-    <Content Include="Adm_Statistics.aspx" />
     <Content Include="Adm_Tutorial.aspx" />
     <Content Include="ConferenceRegistration.aspx" />
-    <Content Include="images\start.jpg" />
-    <Content Include="TutorialRegistration.aspx" />
     <Content Include="Disclaimer.txt" />
     <Content Include="Emailtest.aspx" />
     <Content Include="Home.aspx" />
@@ -199,7 +175,6 @@
     <Content Include="images\sheet_v.png" />
     <Content Include="images\spacer.gif" />
     <Content Include="Default.aspx" />
-    <Content Include="index_conference_registration.aspx" />
     <Content Include="index_tutorial_registration.aspx" />
     <Content Include="index_user.aspx" />
     <Content Include="index_view.aspx" />
@@ -209,25 +184,24 @@
     <Content Include="Payment.aspx" />
     <Content Include="Roles.aspx" />
     <Content Include="script.js" />
-    <Content Include="bootstrap-datepicker.js" />
-    <Content Include="jquery-1.11.0.min.js" />
-    <Content Include="jquery.timepicker.js" />
-    <Content Include="picker-site.js" />
+    <Content Include="Scripts\bootstrap-datepicker.js" />
+    <Content Include="Scripts\jquery-1.11.0.min.js" />
+    <Content Include="Scripts\jquery.timepicker.js" />
+    <Content Include="Scripts\picker-site.js" />
     <Content Include="signup.aspx" />
     <Content Include="signup_success.aspx" />
     <Content Include="style.css" />
     <Content Include="style.ie6.css" />
     <Content Include="style.ie7.css" />
     <Content Include="StyleSheet1.css" />
-    <Content Include="bootstrap-datepicker.css" />
-    <Content Include="jquery.timepicker.css" />
-    <Content Include="picker-site.css" />
+    <Content Include="Styles\bootstrap-datepicker.css" />
+    <Content Include="Styles\jquery.timepicker.css" />
+    <Content Include="Styles\picker-site.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Styles\StyleSheet1.css" />
     <Content Include="View_Conference.aspx" />
     <Content Include="view_conference_registration.aspx" />
-    <Content Include="View_Paper.aspx" />
     <Content Include="View_Tutorial.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -237,6 +211,7 @@
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -265,13 +240,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="index_conference_registration.aspx.cs">
-      <DependentUpon>index_conference_registration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index_conference_registration.aspx.designer.cs">
-      <DependentUpon>index_conference_registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="index_user.aspx.cs">
       <DependentUpon>index_user.aspx</DependentUpon>
@@ -348,9 +316,6 @@
   <ItemGroup>
     <Content Include="Final.Master" />
     <None Include="images\Thumbs.db" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

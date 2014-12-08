@@ -12,14 +12,14 @@
             $('input:checkbox[id*=cbSelectTutorial]').click(function () {
                 var $tr = $(this).closest('tr');
                 var tutorialFees = $tr.find("input:hidden[name$=hdnTutorialFees]").val();
-                var total = parseFloat($("#AA1_txtTotalFees").val());
+                var total = parseFloat($("#txtTotalFees").val());
                 if ($(this).is(':checked')) {
                     total = total + parseFloat(tutorialFees);
                 }
                 else {
                     total = total - parseFloat(tutorialFees);
                 }
-                $("#AA1_txtTotalFees").val(total);
+                $("#txtTotalFees").val(total);
             });
         });
     </script>
@@ -106,7 +106,7 @@
                 Total Fees
             </td>
             <td>
-                <asp:TextBox ID="txtTotalFees" runat="server" Text="0"></asp:TextBox>
+                <asp:TextBox ID="txtTotalFees" runat="server" Enabled="false" Text="0"></asp:TextBox>
             </td>
         </tr>
         <tr>

@@ -68,24 +68,5 @@ namespace ConferenceMgmt.App_Code.DAL
                 }
             }
         }
-
-        internal void SaveTutorialUser(EL.TutorialUser objTutorialUser)
-        {
-            using (con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString))
-            {
-                using (cmd = new SqlCommand())
-                {
-                    cmd.CommandText = "AddTutorialUser";
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    con.Open();
-                    cmd.Connection = con;                    
-                    cmd.Parameters.AddWithValue("@UserId", objTutorialUser.UserID);
-                    cmd.Parameters.AddWithValue("@Tutorials", objTutorialUser.Tutorials);                    
-                    cmd.Parameters.AddWithValue("@Fees", objTutorialUser.Fees);
-                    cmd.Parameters.AddWithValue("@CreditCard", objTutorialUser.CreditCard);
-                    cmd.ExecuteNonQuery();
-                }
-            }
-        }
     }
 }

@@ -22,7 +22,6 @@ namespace ConferenceMgmt
                     liConference.Visible = false;
                     liTutorial.Visible = false;
                     liViewPaper.Visible = false;
-                    liStatistics.Visible = false;
                 }
             }
             else
